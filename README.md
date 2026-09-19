@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.jpg" alt="Daniel / @Dasannn — Agentic AI, Integrations & Automation" width="100%" />
+  alt="Daniel / @Dasannn — Agentic AI, Integrations & Automation" width="100%" />
 </p>
 
 <div align="center">
