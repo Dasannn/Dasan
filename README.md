@@ -1,12 +1,26 @@
 <div align="center">
 
-# Daniel
+<pre>
+> whoami
+Daniel / @Dasannn
 
-### Agentic AI · Integrations · Automation
+> focus
+Agentic AI · Integrations · Automation
 
-**Building software for the interesting problems between platforms.**
+> operating_principle
+"What if this were possible?" is a perfectly reasonable way to start a project.
+</pre>
+
+### turning questionable ideas into surprisingly functional software.
 
 `Java` · `Python` · `Paper` · `SQL` · `APIs` · `MCP` · `Automation`
+
+<sub>
+<a href="#about-me">about</a> ·
+<a href="#featured-work">featured work</a> ·
+<a href="#toolbox">toolbox</a> ·
+<a href="#what-interests-me">interests</a>
+</sub>
 
 </div>
 
@@ -20,86 +34,126 @@ A lot of what I build lives **between platforms**: game servers, APIs, databases
 
 I'm especially interested in the parts users rarely notice when they're working properly: **architecture, reliability, security, performance and developer experience**.
 
-I like experimenting with ideas that start with *"I wonder if this is possible..."* and occasionally end with significantly more code than expected.
+Most projects start with *"I wonder if this is possible..."* and occasionally end with a suspicious number of commits.
 
-**Fun fact:** one of my biggest goals is to someday reach the level of engineering depth and understanding that people like **Andrej Karpathy** represent. There's still a bit of code to write before that happens.
+> **Fun fact:** one of my biggest goals is to someday reach the level of engineering depth and understanding that people like **Andrej Karpathy** represent.  
+> There's still a bit of code to write before that happens.
 
 ---
 
 ## Featured work
 
-### 🖼️ [FraMCit](https://github.com/Dasannn/FraMCit)
+<table>
+<tr>
+<td width="33%" valign="top">
 
-**Images and animated GIFs inside Minecraft maps.**
+### 🖼️ FraMCit
 
-Built on the Paper API with viewer-aware animation, persistent storage, caching, resource quotas and protection against unsafe URL fetching.
+**Images & animated GIFs inside Minecraft maps.**
 
-The system only animates content for players actually looking at it, keeping resource usage tied to real viewers instead of the number of images stored on the server.
+Viewer-aware animation, persistent storage, caching, resource quotas and SSRF protection.
 
-`Java` `Paper` `Security` `Caching` `Persistence` `230+ Tests`
+The fun part: animations only run for players actually looking at them.
 
----
+**`Java` `Paper` `Security`**
 
-### 🔗 [DiscordTowny](https://github.com/Dasannn/DiscordxTowny)
+[Explore →](https://github.com/Dasannn/FraMCit)
+
+</td>
+<td width="33%" valign="top">
+
+### 🔗 DiscordTowny
 
 **Minecraft ↔ Discord infrastructure for Towny communities.**
 
-Connects Minecraft identities and Towny data with Discord, automatically managing town spaces, roles, permissions and synchronization.
+Identity linking, automatic role management, permissions and synchronization between two independent platforms.
 
-Designed around keeping two independent platforms consistent without requiring administrators to manage everything manually.
+Because apparently one platform at a time was too easy.
 
-`Java` `Paper` `Discord` `Towny` `SQLite` `MySQL`
+**`Java` `Discord` `SQL`**
 
----
+[Explore →](https://github.com/Dasannn/DiscordxTowny)
 
-### 💥 [DamageControl](https://github.com/Dasannn/DamageControl)
+</td>
+<td width="33%" valign="top">
 
-**Controlled vanilla explosions inside protected Minecraft servers.**
+### 💥 DamageControl
 
-Restores normal explosion behavior only inside explicitly created areas while leaving the server's global protection rules intact.
+**Controlled vanilla explosions inside protected servers.**
 
-Integrates with existing server infrastructure including Towny, WorldGuard, Vault and EssentialsProtect.
+Area-based behavior layered over Towny, WorldGuard, Vault and EssentialsProtect.
 
-`Java` `Paper` `Vault` `Towny` `WorldGuard` `Persistence`
+Turns out even explosions can have business rules.
+
+**`Java` `Paper` `Integrations`**
+
+[Explore →](https://github.com/Dasannn/DamageControl)
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## Toolbox
 
+<table>
+<tr>
+<td valign="top">
+
 **Languages**
 
-`Java` · `Python`
+`Java`  
+`Python`
+
+</td>
+<td valign="top">
 
 **Platforms & Backend**
 
-`Paper` · `Discord` · `SQL` · `SQLite` · `MySQL / MariaDB`
+`Paper`  
+`Discord`  
+`SQL`  
+`SQLite`  
+`MySQL / MariaDB`
+
+</td>
+<td valign="top">
 
 **Engineering & Tooling**
 
-`Git` · `Gradle` · `REST APIs` · `MCP` · `Automation`
+`Git`  
+`Gradle`  
+`REST APIs`  
+`MCP`  
+`Automation`
 
-**Currently exploring**
+</td>
+</tr>
+</table>
 
-`AI Agents` · `MCP Tooling` · `Developer Tools` · `Server Systems`
+### Current rabbit holes
+
+`Agentic AI` · `AI Engineering` · `MCP Tooling` · `LLM Systems` · `Developer Tools` · `Server Systems`
 
 ---
 
 ## What interests me
 
-```text
-systems       → software with state, constraints and real failure modes
+> **systems**  
+> software with state, constraints and real failure modes
 
-integrations  → making independent platforms behave like one product
+> **integrations**  
+> making independent platforms behave like one product
 
-AI engineering
-              → models, agents, inference, LLM systems, evaluation,
-                 tooling and everything happening between research
-                 and software that actually works in production
+> **AI engineering**  
+> models, agents, inference, LLM systems, evaluation, tooling and everything between research and software that actually survives production
 
-automation    → removing repetitive work with code, agents and tooling
+> **automation**  
+> removing repetitive work with code, agents and tooling
 
-experiments   → building things because "what if this were possible?"
-```
+> **experiments**  
+> building things because *"what if this were possible?"*
 
 ---
 
@@ -107,8 +161,10 @@ experiments   → building things because "what if this were possible?"
 
 ### Let's connect
 
-I'm always interested in interesting software, integrations and unusual technical problems.
+I'm always interested in interesting software, strange integrations and technical problems that probably have a simpler solution.
 
 **[@Dasannn](https://github.com/Dasannn)**
+
+<sub>But where's the fun in that?</sub>
 
 </div>
