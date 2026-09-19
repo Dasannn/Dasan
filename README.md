@@ -1,5 +1,5 @@
 <p align="center">
-  "Daniel / @Dasannn — Agentic AI, Integrations & Automation" width="100%" />
+  Daniel / @Dasannn — Agentic AI, Integrations & Automation
 </p>
 
 <div align="center">
