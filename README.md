@@ -2,7 +2,7 @@
 
 # Daniel
 
-### Systems · Integrations · Automation
+### Agentic AI · Integrations · Automation
 
 **Building software for the interesting problems between platforms.**
 
