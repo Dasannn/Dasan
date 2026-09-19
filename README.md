@@ -1,6 +1,6 @@
 <div align="center">
 
-# Daniel Gambin
+# Daniel
 
 ### Systems · Integrations · Automation
 
